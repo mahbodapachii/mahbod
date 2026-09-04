@@ -7148,6 +7148,114 @@ img {
     margin-bottom: 0;
   }
 }
+/* =========================================
+   Navy & Cyan Theme (Optimized with Variables)
+========================================= */
+:root {
+  --bg-main: #f4f8fb;
+  --bg-card: #ffffff;
+  --navy-dark: #081a2b;
+  --navy-mid: #0f3552;
+  --cyan-accent: #16b8c4;
+  --cyan-hover: #0f8f9a;
+  --cyan-light: #38bdf8;
+  --text-dark: #0f172a;
+  --text-muted: #64748b;
+  --border-color: #e2e8f0;
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-dark);
+}
+
+.page-header {
+  background: linear-gradient(
+    135deg,
+    var(--navy-dark) 0%,
+    var(--navy-mid) 55%,
+    var(--cyan-accent) 140%
+  );
+}
+
+.page-header-image {
+  opacity: 0.22;
+}
+
+.navbar.bg-primary {
+  background-color: var(--navy-dark) !important;
+}
+
+.bg-primary {
+  background-color: var(--navy-mid) !important;
+}
+
+.text-primary {
+  color: var(--cyan-accent) !important;
+}
+
+.btn-primary {
+  background-color: var(--cyan-accent);
+  border-color: var(--cyan-accent);
+  box-shadow: 0 8px 18px rgba(22, 184, 196, 0.25);
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--cyan-hover);
+  border-color: var(--cyan-hover);
+  transform: translateY(-1px);
+}
+
+.title {
+  color: var(--text-dark);
+}
+
+.card {
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+}
+
+.about-card,
+.skills-card {
+  background-color: var(--bg-card);
+}
+
+.about-card p,
+.skill-list li,
+.category {
+  color: var(--text-muted);
+}
+
+.skill-list .fa-check {
+  color: var(--cyan-accent) !important;
+}
+
+.social-links a,
+.button-container .btn {
+  color: var(--cyan-accent);
+  transition: color 0.2s ease;
+}
+
+.social-links a:hover {
+  color: var(--cyan-light);
+}
+
+.footer {
+  background-color: var(--navy-dark);
+  color: #ffffff;
+}
+
+.footer .title,
+.footer .text-muted {
+  color: #ffffff !important;
+}
+
+.footer a {
+  color: var(--cyan-light);
+}
 
 /* Contact Information Style */
 .cc-contact-information {
