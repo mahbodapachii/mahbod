@@ -7293,3 +7293,276 @@ a.credit {
 .section {
   padding-bottom: 0;
 }
+/* =========================================
+   Navy and Cyan Professional Theme
+========================================= */
+
+body {
+  background-color: #f4f8fb
+;
+  color: #0f172a
+;
+}
+
+/* Main hero background */
+.page-header {
+  background: linear-gradient(
+    135deg,
+    #081a2b
+ 0%,
+    #0f3552
+ 55%,
+    #16b8c4
+ 140%
+  );
+}
+
+/* Existing background image overlay */
+.page-header-image {
+  opacity: 0.22;
+}
+
+/* Navbar */
+.navbar.bg-primary {
+  background-color: #081a2b
+ !important;
+}
+
+/* Primary background sections */
+.bg-primary {
+  background-color: #0f3552
+ !important;
+}
+
+/* Main text and headings */
+.title,
+.h4,
+.h5,
+.h2 {
+  color: #0f172a
+;
+}
+
+/* Hero title and category */
+.page-header .title,
+.page-header .category,
+.page-header p {
+  color: #ffffff
+ !important;
+}
+
+/* Accent color */
+.text-primary {
+  color: #16b8c4
+ !important;
+}
+
+/* Links */
+a {
+  color: #16b8c4
+;
+}
+
+a:hover,
+a:focus {
+  color: #0f8f9a
+;
+  text-decoration: none;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #16b8c4
+;
+  border-color: #16b8c4
+;
+  box-shadow: 0 8px 18px rgba(22, 184, 196, 0.25);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #0f8f9a
+ !important;
+  border-color: #0f8f9a
+ !important;
+}
+
+/* Social media buttons */
+.button-container .btn {
+  color: #16b8c4
+;
+  border-color: #ffffff
+;
+}
+
+.button-container .btn:hover {
+  color: #ffffff
+;
+  background-color: #16b8c4
+;
+  border-color: #16b8c4
+;
+}
+
+/* Cards */
+.card {
+  border: 1px solid #e2e8f0
+;
+  border-radius: 16px;
+  background-color: #ffffff
+;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+}
+
+/* About section */
+.about-card {
+  overflow: hidden;
+  background-color: #ffffff
+;
+}
+
+.about-card .card-body {
+  padding: 34px;
+}
+
+.about-card p {
+  color: #64748b
+;
+  line-height: 1.95;
+}
+
+.about-card .lead-text {
+  color: #0f172a
+;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.85;
+}
+
+/* Professional information panel */
+.professional-info {
+  height: 100%;
+  background-color: #f8fafc
+;
+}
+
+.professional-info .title {
+  color: #0f172a
+;
+  font-weight: 800;
+}
+
+.professional-info strong {
+  color: #64748b
+;
+  font-size: 13px;
+}
+
+.professional-info a {
+  color: #16b8c4
+;
+  word-break: break-word;
+}
+
+/* Skills section */
+.skills-card {
+  overflow: hidden;
+  background-color: #ffffff
+;
+}
+
+.skill-group {
+  padding: 24px 28px;
+}
+
+.skill-group h5 {
+  margin-bottom: 18px;
+  color: #0f172a
+;
+  font-weight: 800;
+}
+
+.skill-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.skill-list li {
+  padding: 9px 0;
+  color: #64748b
+;
+  line-height: 1.7;
+}
+
+.skill-list .fa-check {
+  color: #16b8c4
+ !important;
+}
+
+/* Education section */
+.cc-education .card {
+  overflow: hidden;
+}
+
+.cc-education-header {
+  background-color: #0f3552
+ !important;
+}
+
+.cc-education-header p,
+.cc-education-header .h5 {
+  color: #ffffff
+ !important;
+}
+
+/* Category text */
+.category {
+  color: #64748b
+;
+}
+
+/* Footer */
+.footer {
+  background-color: #081a2b
+;
+  color: #ffffff
+;
+}
+
+.footer .title,
+.footer .text-muted,
+.footer p {
+  color: #ffffff
+ !important;
+}
+
+.footer a {
+  color: #38bdf8
+;
+}
+
+.footer a:hover {
+  color: #16b8c4
+;
+}
+
+/* Mobile layout */
+@media (max-width: 767px) {
+  .about-card .card-body {
+    padding: 26px 22px;
+  }
+
+  .about-card .lead-text {
+    font-size: 16px;
+  }
+
+  .skill-group {
+    padding: 20px 10px;
+  }
+
+  .professional-info .row {
+    margin-top: 18px !important;
+  }
+	  }
