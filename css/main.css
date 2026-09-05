@@ -7604,3 +7604,77 @@ a { color:inherit; }
 .experience-list { margin:18px 0 0; padding-left:22px; color:#64748b; }
 .experience-list li { margin-bottom:10px; line-height:1.8; }
 @media (max-width:767px) { .card { border-radius:12px; } .experience-list { padding-left:20px; } }
+
+
+/* Experience section spacing */
+#experience {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* Main experience card */
+#experience .card-body {
+  padding: 25px 30px;
+}
+
+/* Job title */
+#experience .h5 {
+  margin-top: 0;
+  margin-bottom: 6px;
+  line-height: 1.3;
+}
+
+/* Secondary experience title */
+#experience .experience-subtitle {
+  margin-top: 22px;
+  margin-bottom: 5px;
+  line-height: 1.3;
+}
+
+/* Category text */
+#experience .category {
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: 1.35;
+}
+
+/* Description paragraphs */
+#experience p {
+  line-height: 1.45;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+/* Experience lists */
+#experience .experience-list {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+/* List items */
+#experience .experience-list li {
+  margin-top: 0;
+  margin-bottom: 4px;
+  line-height: 1.4;
+}
+
+/* Reduce excessive spacing on small screens */
+@media (max-width: 767px) {
+  #experience .card-body {
+    padding: 20px;
+  }
+
+  #experience .experience-subtitle {
+    margin-top: 18px;
+  }
+
+  #experience .experience-list {
+    padding-left: 18px;
+  }
+
+  #experience .experience-list li {
+    margin-bottom: 5px;
+    line-height: 1.4;
+  }
+}
