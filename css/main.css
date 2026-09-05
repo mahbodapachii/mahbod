@@ -7566,3 +7566,41 @@ a:focus {
     margin-top: 18px !important;
   }
 	  }
+
+/* =========================================
+   Theme Fix
+   Scoped overrides only
+   ========================================= */
+body { background-color:#f4f8fb; color:#0f172a; }
+.title,.h2,.h4,.h5 { color:inherit; }
+.section .title,.card .title,.card .h2,.card .h4,.card .h5 { color:#0f172a; }
+.page-header { background-color:#081a2b !important; background-image:linear-gradient(135deg,rgba(8,26,43,.96) 0%,rgba(15,53,82,.94) 55%,rgba(22,184,196,.55) 140%) !important; }
+.page-header-image { background-image:url("../images/bg.svg") !important; opacity:.16 !important; }
+.page-header .title,.page-header .h1,.page-header .h2,.page-header .h3,.page-header .h4,.page-header .h5,.page-header .category,.page-header p,.page-header a { color:#fff !important; }
+.navbar.bg-primary { background-color:#081a2b !important; }
+.bg-primary { background-color:#0f3552; }
+#education .bg-primary,#experience .bg-primary,.cc-education-header { background-color:#0f3552 !important; }
+#education .cc-education-header *,#experience .cc-education-header * { color:#fff !important; }
+.section { background-color:#f4f8fb; }
+.card { background-color:#fff; border:1px solid #e2e8f0; border-radius:16px; box-shadow:0 10px 30px rgba(15,23,42,.06); }
+.card p,.card li,.category { color:#64748b; }
+.text-primary { color:#16b8c4 !important; }
+.skill-list .fa-check,.experience-list li::marker { color:#16b8c4 !important; }
+a { color:inherit; }
+.about-card a,.professional-info a { color:#16b8c4; }
+.about-card a:hover,.professional-info a:hover { color:#0f8f9a; }
+.btn-primary { color:#fff !important; background-color:#16b8c4 !important; border-color:#16b8c4 !important; }
+.btn-primary:hover,.btn-primary:focus,.btn-primary:active { color:#fff !important; background-color:#0f8f9a !important; border-color:#0f8f9a !important; }
+.button-container .btn { color:#16b8c4; border-color:#16b8c4; }
+.button-container .btn:hover { color:#fff; background-color:#16b8c4; border-color:#16b8c4; }
+.footer { background-color:#081a2b !important; color:#fff; }
+.footer *, .footer .title,.footer p,.footer .text-muted { color:#fff !important; }
+.footer a { color:#38bdf8 !important; }
+.footer a:hover { color:#16b8c4 !important; }
+.skill-group h5 { color:#0f172a; }
+.skill-list li { color:#64748b; }
+#experience .h5 { color:#0f172a; }
+#experience .category { color:#64748b; }
+.experience-list { margin:18px 0 0; padding-left:22px; color:#64748b; }
+.experience-list li { margin-bottom:10px; line-height:1.8; }
+@media (max-width:767px) { .card { border-radius:12px; } .experience-list { padding-left:20px; } }
