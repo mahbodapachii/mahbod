@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en-US" dir="ltr">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +9,7 @@
   <meta name="msapplication-TileColor" content="#039be5">
   <meta name="google-site-verification" content="P0O8pwOxAR9irjmUqMSn7-hIkJ2gO775LJXah_X1Fx4">
 
-  <title>Mahbod Moghadam | Software Support Specialist</title>
+  <title data-en="Mahbod Moghadam | Software Support Specialist" data-fa="مهبد مقدم | متخصص پشتیبانی نرم‌افزار">Mahbod Moghadam | Software Support Specialist</title>
 
   <meta name="description" content="Mahbod Moghadam is a Software Support Specialist focused on software troubleshooting, operating system support, system optimization and technical assistance.">
 
@@ -19,6 +19,17 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/main.css?v=5" rel="stylesheet">
   <link rel="shortcut icon" href="favicon.ico">
+
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    body.lang-fa-active { direction: rtl; text-align: right; font-family: 'Vazirmatn', Tahoma, sans-serif; }
+    body.lang-fa-active .professional-info .row,
+    body.lang-fa-active .cc-education-header,
+    body.lang-fa-active .contact-card .row { direction: rtl; }
+    body.lang-fa-active .skill-list i,
+    body.lang-fa-active .experience-list li { margin-left: 0.5rem; margin-right: 0; }
+    .lang-toggle-btn { cursor: pointer; }
+  </style>
 </head>
 
 <body id="top">
@@ -28,7 +39,7 @@
     <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
       <div class="container">
         <div class="navbar-translate">
-          <a class="navbar-brand" href="#" rel="tooltip">Mahbod Moghadam</a>
+          <a class="navbar-brand" href="#" rel="tooltip" data-en="Mahbod Moghadam" data-fa="مهبد مقدم">Mahbod Moghadam</a>
 
           <button class="navbar-toggler" type="button"
                   data-toggle="collapse"
@@ -45,16 +56,22 @@
         <div class="collapse navbar-collapse justify-content-end" id="navigation">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link smooth-scroll" href="#about">About</a>
+              <a class="nav-link smooth-scroll" href="#about" data-en="About" data-fa="درباره من">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link smooth-scroll" href="#skill">Skills</a>
+              <a class="nav-link smooth-scroll" href="#skill" data-en="Skills" data-fa="مهارت‌ها">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link smooth-scroll" href="#education">Education</a>
+              <a class="nav-link smooth-scroll" href="#education" data-en="Education" data-fa="تحصیلات">Education</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link smooth-scroll" href="#experience">Experience</a>
+              <a class="nav-link smooth-scroll" href="#experience" data-en="Experience" data-fa="سوابق کاری">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-primary btn-round smooth-scroll ml-lg-2" href="#contact" data-en="Get In Touch" data-fa="تماس با من">Get In Touch</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link lang-toggle-btn" href="#">فارسی</a>
             </li>
           </ul>
         </div>
@@ -80,13 +97,17 @@
                 </a>
               </div>
 
-              <div class="h2 title">Mahbod Moghadam</div>
+              <div class="h2 title" data-en="Mahbod Moghadam" data-fa="مهبد مقدم">Mahbod Moghadam</div>
 
-              <p class="category text-white">Software Support Specialist</p>
+              <p class="category text-white" data-en="Software Support Specialist" data-fa="متخصص پشتیبانی نرم‌افزار">Software Support Specialist</p>
 
-              <p class="text-white">
+              <p class="text-white" data-en="Software Troubleshooting · Operating System Support · System Optimization" data-fa="رفع اشکال نرم‌افزار · پشتیبانی سیستم‌عامل · بهینه‌سازی سیستم">
                 Software Troubleshooting · Operating System Support · System Optimization
               </p>
+
+              <a href="#contact" class="btn btn-neutral btn-round smooth-scroll mt-3" data-en="Request Support" data-fa="درخواست پشتیبانی">
+                Request Support
+              </a>
             </div>
           </div>
 
@@ -136,15 +157,15 @@
             <div class="col-lg-7 col-md-12">
               <div class="card-body">
 
-                <div class="h4 mt-0 title">About Me</div>
+                <div class="h4 mt-0 title" data-en="About Me" data-fa="درباره من">About Me</div>
 
-                <p class="lead-text">
+                <p class="lead-text" data-en="Hello! I am Mahbod Moghadam, a Software Support Specialist focused on helping users solve software-related problems and maintain stable, efficient and reliable computer systems." data-fa="سلام! من مهبد مقدم هستم، متخصص پشتیبانی نرم‌افزار که روی کمک به کاربران برای حل مشکلات نرم‌افزاری و نگهداری سیستم‌های کامپیوتری پایدار، کارآمد و قابل اعتماد تمرکز دارم.">
                   Hello! I am Mahbod Moghadam, a Software Support Specialist
                   focused on helping users solve software-related problems and
                   maintain stable, efficient and reliable computer systems.
                 </p>
 
-                <p>
+                <p data-en="My professional focus is providing practical and dependable technical support for software applications and operating systems. I help users identify the causes of application errors, installation failures, configuration problems, system instability, startup issues and reduced computer performance." data-fa="تمرکز حرفه‌ای من ارائه پشتیبانی فنی عملی و قابل‌اعتماد برای نرم‌افزارها و سیستم‌عامل‌هاست. به کاربران کمک می‌کنم علت خطاهای برنامه، مشکلات نصب، مشکلات پیکربندی، ناپایداری سیستم، مشکلات راه‌اندازی و افت عملکرد کامپیوتر را شناسایی کنند.">
                   My professional focus is providing practical and dependable
                   technical support for software applications and operating
                   systems. I help users identify the causes of application
@@ -153,7 +174,7 @@
                   performance.
                 </p>
 
-                <p>
+                <p data-en="When a computer or software environment becomes slow, unstable or difficult to use, I carefully review the symptoms and examine the relevant software, operating system settings, updates, drivers, startup services, available storage and system resources. This structured approach helps identify the actual source of a problem instead of applying temporary solutions without understanding the cause." data-fa="وقتی یک کامپیوتر یا محیط نرم‌افزاری کند، ناپایدار یا سخت برای استفاده می‌شود، من با دقت علائم را بررسی کرده و نرم‌افزار، تنظیمات سیستم‌عامل، به‌روزرسانی‌ها، درایورها، سرویس‌های راه‌اندازی، فضای ذخیره‌سازی و منابع سیستم را بررسی می‌کنم. این رویکرد ساختاریافته کمک می‌کند به‌جای اعمال راه‌حل‌های موقت بدون فهم علت، منبع واقعی مشکل شناسایی شود.">
                   When a computer or software environment becomes slow,
                   unstable or difficult to use, I carefully review the symptoms
                   and examine the relevant software, operating system settings,
@@ -163,7 +184,7 @@
                   solutions without understanding the cause.
                 </p>
 
-                <p>
+                <p data-en="I provide support for software installation and configuration, operating system setup, system updates, software compatibility, startup and boot problems, application errors, system slowdowns and general system maintenance. I also assist users who want to improve their computer's responsiveness, prepare their system for an upgrade or make better use of their existing hardware and software environment." data-fa="پشتیبانی برای نصب و پیکربندی نرم‌افزار، راه‌اندازی سیستم‌عامل، به‌روزرسانی سیستم، سازگاری نرم‌افزار، مشکلات راه‌اندازی و بوت، خطاهای برنامه، کندی سیستم و نگهداری کلی سیستم ارائه می‌دهم. همچنین به کاربرانی که می‌خواهند پاسخگویی کامپیوترشان را بهبود دهند، سیستم خود را برای آپگرید آماده کنند یا از سخت‌افزار و نرم‌افزار موجودشان بهتر استفاده کنند، کمک می‌کنم.">
                   I provide support for software installation and configuration,
                   operating system setup, system updates, software compatibility,
                   startup and boot problems, application errors, system
@@ -173,7 +194,7 @@
                   existing hardware and software environment.
                 </p>
 
-                <p>
+                <p data-en="My approach to technical support is based on careful analysis, clear communication and practical problem-solving. I first understand the issue, review the available information, identify possible causes and then apply a suitable solution step by step. This process helps reduce unnecessary changes and makes the troubleshooting experience easier and more understandable for the user." data-fa="رویکرد من در پشتیبانی فنی بر پایه تحلیل دقیق، ارتباط شفاف و حل مسئله عملی است. ابتدا مشکل را درک می‌کنم، اطلاعات موجود را بررسی می‌کنم، علل احتمالی را شناسایی کرده و سپس راه‌حل مناسب را گام‌به‌گام اعمال می‌کنم. این فرآیند تغییرات غیرضروری را کاهش داده و تجربه رفع اشکال را برای کاربر ساده‌تر و قابل‌فهم‌تر می‌کند.">
                   My approach to technical support is based on careful analysis,
                   clear communication and practical problem-solving. I first
                   understand the issue, review the available information,
@@ -183,7 +204,7 @@
                   understandable for the user.
                 </p>
 
-                <p>
+                <p data-en="My goal is not only to solve the immediate issue, but also to help create a more stable and dependable system for continued daily use. After applying a solution, I carefully test the system to make sure the problem has been resolved and that the changes have not created any new issues." data-fa="هدف من فقط حل مشکل فوری نیست، بلکه کمک به ایجاد سیستمی پایدارتر و قابل‌اعتمادتر برای استفاده روزانه است. پس از اعمال راه‌حل، سیستم را با دقت آزمایش می‌کنم تا مطمئن شوم مشکل برطرف شده و تغییرات مشکل جدیدی ایجاد نکرده‌اند.">
                   My goal is not only to solve the immediate issue, but also to
                   help create a more stable and dependable system for continued
                   daily use. After applying a solution, I carefully test the
@@ -191,7 +212,7 @@
                   changes have not created any new issues.
                 </p>
 
-                <p>
+                <p data-en="I believe professional technical support should be clear, patient and understandable. For this reason, I explain technical problems in simple language, guide users through the required steps and provide recommendations that are practical for their specific situation." data-fa="معتقدم پشتیبانی فنی حرفه‌ای باید شفاف، صبورانه و قابل‌فهم باشد. به همین دلیل مشکلات فنی را با زبان ساده توضیح می‌دهم، کاربران را در مراحل لازم راهنمایی می‌کنم و توصیه‌های عملی متناسب با شرایط خاص آن‌ها ارائه می‌دهم.">
                   I believe professional technical support should be clear,
                   patient and understandable. For this reason, I explain
                   technical problems in simple language, guide users through the
@@ -199,7 +220,7 @@
                   for their specific situation.
                 </p>
 
-                <p>
+                <p data-en="Whether you are dealing with a software error, an operating system problem, a slow computer, an installation issue, a compatibility problem or a system upgrade requirement, I approach the situation with attention to detail, reliable communication and a solution-oriented mindset." data-fa="چه با خطای نرم‌افزاری، مشکل سیستم‌عامل، کندی کامپیوتر، مشکل نصب، مشکل سازگاری یا نیاز به آپگرید سیستم مواجه باشید، با دقت به جزئیات، ارتباط قابل‌اعتماد و ذهنیت راه‌حل‌محور به موضوع می‌پردازم.">
                   Whether you are dealing with a software error, an operating
                   system problem, a slow computer, an installation issue, a
                   compatibility problem or a system upgrade requirement, I
@@ -213,39 +234,39 @@
             <div class="col-lg-5 col-md-12">
               <div class="card-body professional-info">
 
-                <div class="h4 mt-0 title">Professional Information</div>
+                <div class="h4 mt-0 title" data-en="Professional Information" data-fa="اطلاعات حرفه‌ای">Professional Information</div>
 
                 <div class="row mt-3">
                   <div class="col-sm-5">
-                    <strong class="text-uppercase">Role:</strong>
+                    <strong class="text-uppercase" data-en="Role:" data-fa="نقش:">Role:</strong>
                   </div>
-                  <div class="col-sm-7">Software Support Specialist</div>
+                  <div class="col-sm-7" data-en="Software Support Specialist" data-fa="متخصص پشتیبانی نرم‌افزار">Software Support Specialist</div>
                 </div>
 
                 <div class="row mt-3">
                   <div class="col-sm-5">
-                    <strong class="text-uppercase">Main Focus:</strong>
+                    <strong class="text-uppercase" data-en="Main Focus:" data-fa="تمرکز اصلی:">Main Focus:</strong>
                   </div>
-                  <div class="col-sm-7">Software and Operating System Support</div>
+                  <div class="col-sm-7" data-en="Software and Operating System Support" data-fa="پشتیبانی نرم‌افزار و سیستم‌عامل">Software and Operating System Support</div>
                 </div>
 
                 <div class="row mt-3">
                   <div class="col-sm-5">
-                    <strong class="text-uppercase">Specialization:</strong>
+                    <strong class="text-uppercase" data-en="Specialization:" data-fa="تخصص:">Specialization:</strong>
                   </div>
-                  <div class="col-sm-7">Troubleshooting and System Optimization</div>
+                  <div class="col-sm-7" data-en="Troubleshooting and System Optimization" data-fa="رفع اشکال و بهینه‌سازی سیستم">Troubleshooting and System Optimization</div>
                 </div>
 
                 <div class="row mt-3">
                   <div class="col-sm-5">
-                    <strong class="text-uppercase">Location:</strong>
+                    <strong class="text-uppercase" data-en="Location:" data-fa="موقعیت مکانی:">Location:</strong>
                   </div>
-                  <div class="col-sm-7">Rasht, Iran</div>
+                  <div class="col-sm-7" data-en="Rasht, Iran" data-fa="رشت، ایران">Rasht, Iran</div>
                 </div>
 
                 <div class="row mt-3">
                   <div class="col-sm-5">
-                    <strong class="text-uppercase">Email:</strong>
+                    <strong class="text-uppercase" data-en="Email:" data-fa="ایمیل:">Email:</strong>
                   </div>
                   <div class="col-sm-7">
                     <a href="mailto:mahbodapachii@gmail.com">mahbodapachii@gmail.com</a>
@@ -254,9 +275,9 @@
 
                 <div class="row mt-3">
                   <div class="col-sm-5">
-                    <strong class="text-uppercase">Experience:</strong>
+                    <strong class="text-uppercase" data-en="Experience:" data-fa="سابقه:">Experience:</strong>
                   </div>
-                  <div class="col-sm-7">Technical Support and System Assistance</div>
+                  <div class="col-sm-7" data-en="Technical Support and System Assistance" data-fa="پشتیبانی فنی و کمک سیستمی">Technical Support and System Assistance</div>
                 </div>
 
               </div>
@@ -271,7 +292,7 @@
     <div class="section" id="skill">
       <div class="container">
 
-        <div class="h4 text-center mb-4 title">Professional Skills</div>
+        <div class="h4 text-center mb-4 title" data-en="Professional Skills" data-fa="مهارت‌های حرفه‌ای">Professional Skills</div>
 
         <div class="card skills-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
           <div class="card-body">
@@ -280,67 +301,67 @@
 
               <!-- Software Support -->
               <div class="col-md-6 skill-group">
-                <h5 class="h5">Software Support</h5>
+                <h5 class="h5" data-en="Software Support" data-fa="پشتیبانی نرم‌افزار">Software Support</h5>
                 <ul class="list-unstyled skill-list">
-                  <li><i class="fa fa-check text-primary mr-2"></i>Software installation and configuration</li>
-                  <li><i class="fa fa-check text-primary mr-2"></i>Application updates and maintenance</li>
-                  <li><i class="fa fa-check text-primary mr-2"></i>Application error troubleshooting</li>
-                  <li><i class="fa fa-check text-primary mr-2"></i>Software compatibility problem resolution</li>
+                  <li><i class="fa fa-check text-primary mr-2"></i><span data-en="Software installation and configuration" data-fa="نصب و پیکربندی نرم‌افزار">Software installation and configuration</span></li>
+                  <li><i class="fa fa-check text-primary mr-2"></i><span data-en="Application updates and maintenance" data-fa="به‌روزرسانی و نگهداری برنامه‌ها">Application updates and maintenance</span></li>
+                  <li><i class="fa fa-check text-primary mr-2"></i><span data-en="Application error troubleshooting" data-fa="رفع اشکال خطاهای برنامه">Application error troubleshooting</span></li>
+                  <li><i class="fa fa-check text-primary mr-2"></i><span data-en="Software compatibility problem resolution" data-fa="رفع مشکلات سازگاری نرم‌افزار">Software compatibility problem resolution</span></li>
                 </ul>
               </div>
 
               <!-- Operating System Support -->
               <div class="col-md-6 skill-group">
-                <h5 class="h5">Operating System Support</h5>
+                <h5 class="h5" data-en="Operating System Support" data-fa="پشتیبانی سیستم‌عامل">Operating System Support</h5>
                 <ul class="list-unstyled skill-list">
-                  <li><i class="fa fa-check text-primary mr-2"></i>Operating system installation and setup</li>
-                  <li><i class="fa fa-check text-primary mr-2"></i>Operating system configuration</li>
-                  <li><i class="fa fa-check text-primary mr-2"></i>System update and upgrade support</li>
-                  <li><i class="fa fa-check text-primary mr-2"></i>Startup and boot problem resolution</li>
+                  <li><i class="fa fa-check text-primary mr-2"></i><span data-en="Operating system installation and setup" data-fa="نصب و راه‌اندازی سیستم‌عامل">Operating system installation and setup</span></li>
+                  <li><i class="fa fa-check text-primary mr-2"></i><span data-en="Operating system configuration" data-fa="پیکربندی سیستم‌عامل">Operating system configuration</span></li>
+                  <li><i class="fa fa-check text-primary mr-2"></i><span data-en="System update and upgrade support" data-fa="پشتیبانی به‌روزرسانی و آپگرید سیستم">System update and upgrade support</span></li>
+                  <li><i class="fa fa-check text-primary mr-2"></i><span data-en="Startup and boot problem resolution" data-fa="رفع مشکلات راه‌اندازی و بوت">Startup and boot problem resolution</span></li>
                 </ul>
               </div>
 
               <!-- System Troubleshooting -->
               <div class="col-md-6 skill-group">
-                <h5 class="h5">System Troubleshooting</h5>
+                <h5 class="h5" data-en="System Troubleshooting" data-fa="رفع اشکال سیستم">System Troubleshooting</h5>
                 <ul class="list-unstyled skill-list">
-                  <li><i class="fa fa-check text-primary mr-2"></i>Diagnosing slow system performance</li>
-                  <li><i class="fa fa-check text-primary mr-2"></i>Finding the causes of system errors</li>
-                  <li><i class="fa fa-check text-primary mr-2"></i>Driver and compatibility issue resolution</li>
-                  <li><i class="fa fa-check text-primary mr-2"></i>Step-by-step technical problem analysis</li>
+                  <li><i class="fa fa-check text-primary mr-2"></i><span data-en="Diagnosing slow system performance" data-fa="تشخیص افت عملکرد سیستم">Diagnosing slow system performance</span></li>
+                  <li><i class="fa fa-check text-primary mr-2"></i><span data-en="Finding the causes of system errors" data-fa="یافتن علل خطاهای سیستم">Finding the causes of system errors</span></li>
+                  <li><i class="fa fa-check text-primary mr-2"></i><span data-en="Driver and compatibility issue resolution" data-fa="رفع مشکلات درایور و سازگاری">Driver and compatibility issue resolution</span></li>
+                  <li><i class="fa fa-check text-primary mr-2"></i><span data-en="Step-by-step technical problem analysis" data-fa="تحلیل گام‌به‌گام مشکلات فنی">Step-by-step technical problem analysis</span></li>
                 </ul>
               </div>
 
               <!-- System Optimization -->
               <div class="col-md-6 skill-group">
-                <h5 class="h5">System Optimization</h5>
+                <h5 class="h5" data-en="System Optimization" data-fa="بهینه‌سازی سیستم">System Optimization</h5>
                 <ul class="list-unstyled skill-list">
-                  <li><i class="fa fa-check text-primary mr-2"></i>System performance optimization</li>
-                  <li><i class="fa fa-check text-primary mr-2"></i>Startup and responsiveness improvement</li>
-                  <li><i class="fa fa-check text-primary mr-2"></i>Storage and resource management</li>
-                  <li><i class="fa fa-check text-primary mr-2"></i>System maintenance and cleanup</li>
+                  <li><i class="fa fa-check text-primary mr-2"></i><span data-en="System performance optimization" data-fa="بهینه‌سازی عملکرد سیستم">System performance optimization</span></li>
+                  <li><i class="fa fa-check text-primary mr-2"></i><span data-en="Startup and responsiveness improvement" data-fa="بهبود راه‌اندازی و سرعت پاسخگویی">Startup and responsiveness improvement</span></li>
+                  <li><i class="fa fa-check text-primary mr-2"></i><span data-en="Storage and resource management" data-fa="مدیریت فضای ذخیره‌سازی و منابع">Storage and resource management</span></li>
+                  <li><i class="fa fa-check text-primary mr-2"></i><span data-en="System maintenance and cleanup" data-fa="نگهداری و پاک‌سازی سیستم">System maintenance and cleanup</span></li>
                 </ul>
               </div>
 
               <!-- System Upgrades -->
               <div class="col-md-6 skill-group">
-                <h5 class="h5">System Upgrades</h5>
+                <h5 class="h5" data-en="System Upgrades" data-fa="آپگرید سیستم">System Upgrades</h5>
                 <ul class="list-unstyled skill-list">
-                  <li><i class="fa fa-check text-primary mr-2"></i>Operating system upgrade assistance</li>
-                  <li><i class="fa fa-check text-primary mr-2"></i>Software and driver upgrade support</li>
-                  <li><i class="fa fa-check text-primary mr-2"></i>Upgrade preparation and compatibility checks</li>
-                  <li><i class="fa fa-check text-primary mr-2"></i>Post-upgrade system testing</li>
+                  <li><i class="fa fa-check text-primary mr-2"></i><span data-en="Operating system upgrade assistance" data-fa="کمک به آپگرید سیستم‌عامل">Operating system upgrade assistance</span></li>
+                  <li><i class="fa fa-check text-primary mr-2"></i><span data-en="Software and driver upgrade support" data-fa="پشتیبانی آپگرید نرم‌افزار و درایور">Software and driver upgrade support</span></li>
+                  <li><i class="fa fa-check text-primary mr-2"></i><span data-en="Upgrade preparation and compatibility checks" data-fa="آماده‌سازی برای آپگرید و بررسی سازگاری">Upgrade preparation and compatibility checks</span></li>
+                  <li><i class="fa fa-check text-primary mr-2"></i><span data-en="Post-upgrade system testing" data-fa="آزمایش سیستم پس از آپگرید">Post-upgrade system testing</span></li>
                 </ul>
               </div>
 
               <!-- User Support -->
               <div class="col-md-6 skill-group">
-                <h5 class="h5">User Support</h5>
+                <h5 class="h5" data-en="User Support" data-fa="پشتیبانی کاربر">User Support</h5>
                 <ul class="list-unstyled skill-list">
-                  <li><i class="fa fa-check text-primary mr-2"></i>Clear technical guidance for users</li>
-                  <li><i class="fa fa-check text-primary mr-2"></i>Practical step-by-step support</li>
-                  <li><i class="fa fa-check text-primary mr-2"></i>Explaining technical issues in simple language</li>
-                  <li><i class="fa fa-check text-primary mr-2"></i>Final testing after problem resolution</li>
+                  <li><i class="fa fa-check text-primary mr-2"></i><span data-en="Clear technical guidance for users" data-fa="راهنمایی فنی شفاف برای کاربران">Clear technical guidance for users</span></li>
+                  <li><i class="fa fa-check text-primary mr-2"></i><span data-en="Practical step-by-step support" data-fa="پشتیبانی عملی گام‌به‌گام">Practical step-by-step support</span></li>
+                  <li><i class="fa fa-check text-primary mr-2"></i><span data-en="Explaining technical issues in simple language" data-fa="توضیح مشکلات فنی با زبان ساده">Explaining technical issues in simple language</span></li>
+                  <li><i class="fa fa-check text-primary mr-2"></i><span data-en="Final testing after problem resolution" data-fa="آزمایش نهایی پس از رفع مشکل">Final testing after problem resolution</span></li>
                 </ul>
               </div>
 
@@ -355,7 +376,7 @@
     <div class="section" id="education">
       <div class="container cc-education">
 
-        <div class="h4 text-center mb-4 title">Education &amp; Achievements</div>
+        <div class="h4 text-center mb-4 title" data-en="Education &amp; Achievements" data-fa="تحصیلات و دستاوردها">Education &amp; Achievements</div>
 
         <!-- Master's Degree -->
         <div class="card">
@@ -363,15 +384,15 @@
             <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
               <div class="card-body cc-education-header">
                 <p>2019 – 2023</p>
-                <div class="h5">Master's Degree</div>
+                <div class="h5" data-en="Master's Degree" data-fa="کارشناسی ارشد">Master's Degree</div>
               </div>
             </div>
 
             <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
               <div class="card-body">
-                <div class="h5">Master's in Computer Software</div>
-                <p class="category">Graduated from Rasht Ahrar University of Technology &amp; Higher Education</p>
-                <p>Field of Study: Computer Software</p>
+                <div class="h5" data-en="Master's in Computer Software" data-fa="کارشناسی ارشد مهندسی نرم‌افزار">Master's in Computer Software</div>
+                <p class="category" data-en="Graduated from Rasht Ahrar University of Technology &amp; Higher Education" data-fa="فارغ‌التحصیل از دانشگاه احرار رشت">Graduated from Rasht Ahrar University of Technology &amp; Higher Education</p>
+                <p data-en="Field of Study: Computer Software" data-fa="رشته تحصیلی: مهندسی نرم‌افزار">Field of Study: Computer Software</p>
               </div>
             </div>
           </div>
@@ -383,15 +404,15 @@
             <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
               <div class="card-body cc-education-header">
                 <p>2015 - 2019</p>
-                <div class="h5">Bachelor's Degree</div>
+                <div class="h5" data-en="Bachelor's Degree" data-fa="کارشناسی">Bachelor's Degree</div>
               </div>
             </div>
 
             <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
               <div class="card-body">
-                <div class="h5">Bachelor of Computer Software</div>
-                <p class="category">Payame Noor University</p>
-                <p>Field of Study: Computer Software</p>
+                <div class="h5" data-en="Bachelor of Computer Software" data-fa="کارشناسی مهندسی نرم‌افزار">Bachelor of Computer Software</div>
+                <p class="category" data-en="Payame Noor University" data-fa="دانشگاه پیام نور">Payame Noor University</p>
+                <p data-en="Field of Study: Computer Software" data-fa="رشته تحصیلی: مهندسی نرم‌افزار">Field of Study: Computer Software</p>
               </div>
             </div>
           </div>
@@ -403,15 +424,15 @@
             <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
               <div class="card-body cc-education-header">
                 <p>2012 - 2015</p>
-                <div class="h5">Diploma</div>
+                <div class="h5" data-en="Diploma" data-fa="دیپلم">Diploma</div>
               </div>
             </div>
 
             <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
               <div class="card-body">
-                <div class="h5">Diploma of Mathematics</div>
-                <p class="category">Kooshyar High School</p>
-                <p>Field of Study: Mathematics</p>
+                <div class="h5" data-en="Diploma of Mathematics" data-fa="دیپلم ریاضی">Diploma of Mathematics</div>
+                <p class="category" data-en="Kooshyar High School" data-fa="دبیرستان کوشیار">Kooshyar High School</p>
+                <p data-en="Field of Study: Mathematics" data-fa="رشته تحصیلی: ریاضی">Field of Study: Mathematics</p>
               </div>
             </div>
           </div>
@@ -427,7 +448,7 @@
     <div class="section" id="experience">
       <div class="container">
 
-        <div class="h4 text-center mb-4 title">
+        <div class="h4 text-center mb-4 title" data-en="Experience" data-fa="سوابق کاری">
           Experience
         </div>
 
@@ -440,7 +461,7 @@
                  data-aos-duration="500">
               <div class="card-body cc-education-header">
                 <p>2017 – Present</p>
-                <div class="h5">Freelance</div>
+                <div class="h5" data-en="Freelance" data-fa="فریلنسر">Freelance</div>
               </div>
             </div>
 
@@ -449,16 +470,16 @@
                  data-aos-offset="50"
                  data-aos-duration="500">
               <div class="card-body">
-                <div class="h5">
+                <div class="h5" data-en="Freelance IT Support &amp; Systems Specialist" data-fa="متخصص پشتیبانی فناوری اطلاعات و سیستم به‌صورت فریلنس">
                   Freelance IT Support &amp; Systems Specialist
                 </div>
 
-                <p class="category">
+                <p class="category" data-en="Server Administration, VPN Services, Remote Support &amp; On-site Technical Services" data-fa="مدیریت سرور، خدمات VPN، پشتیبانی ریموت و خدمات فنی حضوری">
                   Server Administration, VPN Services, Remote Support
                   &amp; On-site Technical Services
                 </p>
 
-                <p>
+                <p data-en="Providing freelance IT support and technical services since 2017, including virtual server administration, VPN service deployment, remote computer support and contract-based on-site technical services for business clients." data-fa="ارائه پشتیبانی فناوری اطلاعات و خدمات فنی به‌صورت فریلنس از سال ۲۰۱۷، شامل مدیریت سرور مجازی، راه‌اندازی خدمات VPN، پشتیبانی ریموت کامپیوتر و خدمات فنی حضوری قراردادی برای مشتریان تجاری.">
                   Providing freelance IT support and technical services since
                   2017, including virtual server administration, VPN service
                   deployment, remote computer support and contract-based
@@ -466,26 +487,26 @@
                 </p>
 
                 <ul class="experience-list">
-                  <li>Deployed and maintained VPN services on virtual private servers.</li>
-                  <li>Worked with open-source VPN management panels and server administration tools.</li>
-                  <li>Configured user accounts, access permissions, connection profiles and service settings.</li>
-                  <li>Monitored server availability and diagnosed connection, configuration and service-related issues.</li>
-                  <li>Provided remote technical support through AnyDesk and similar remote desktop applications.</li>
-                  <li>Diagnosed and resolved software, operating system, driver, network and system performance issues.</li>
-                  <li>Installed and configured operating systems, software, drivers and system updates.</li>
-                  <li>Assisted customers with system maintenance, troubleshooting and performance optimization.</li>
+                  <li data-en="Deployed and maintained VPN services on virtual private servers." data-fa="راه‌اندازی و نگهداری خدمات VPN روی سرورهای مجازی خصوصی.">Deployed and maintained VPN services on virtual private servers.</li>
+                  <li data-en="Worked with open-source VPN management panels and server administration tools." data-fa="کار با پنل‌های مدیریت VPN متن‌باز و ابزارهای مدیریت سرور.">Worked with open-source VPN management panels and server administration tools.</li>
+                  <li data-en="Configured user accounts, access permissions, connection profiles and service settings." data-fa="پیکربندی حساب‌های کاربری، سطوح دسترسی، پروفایل‌های اتصال و تنظیمات سرویس.">Configured user accounts, access permissions, connection profiles and service settings.</li>
+                  <li data-en="Monitored server availability and diagnosed connection, configuration and service-related issues." data-fa="نظارت بر در دسترس بودن سرور و تشخیص مشکلات اتصال، پیکربندی و سرویس.">Monitored server availability and diagnosed connection, configuration and service-related issues.</li>
+                  <li data-en="Provided remote technical support through AnyDesk and similar remote desktop applications." data-fa="ارائه پشتیبانی فنی ریموت از طریق AnyDesk و برنامه‌های مشابه دسکتاپ ریموت.">Provided remote technical support through AnyDesk and similar remote desktop applications.</li>
+                  <li data-en="Diagnosed and resolved software, operating system, driver, network and system performance issues." data-fa="تشخیص و رفع مشکلات نرم‌افزار، سیستم‌عامل، درایور، شبکه و عملکرد سیستم.">Diagnosed and resolved software, operating system, driver, network and system performance issues.</li>
+                  <li data-en="Installed and configured operating systems, software, drivers and system updates." data-fa="نصب و پیکربندی سیستم‌عامل، نرم‌افزار، درایور و به‌روزرسانی‌های سیستم.">Installed and configured operating systems, software, drivers and system updates.</li>
+                  <li data-en="Assisted customers with system maintenance, troubleshooting and performance optimization." data-fa="کمک به مشتریان در نگهداری سیستم، رفع اشکال و بهینه‌سازی عملکرد.">Assisted customers with system maintenance, troubleshooting and performance optimization.</li>
                 </ul>
 
                 <!-- Contract-Based On-site IT Support -->
-                <div class="h5 experience-subtitle">
+                <div class="h5 experience-subtitle" data-en="Contract-Based On-site IT Support for Business Clients" data-fa="پشتیبانی فنی حضوری قراردادی برای مشتریان تجاری">
                   Contract-Based On-site IT Support for Business Clients
                 </div>
 
-                <p class="category">
+                <p class="category" data-en="One-day Technical Assignments | 2017 – Present" data-fa="ماموریت‌های فنی یک‌روزه | ۲۰۱۷ – تاکنون">
                   One-day Technical Assignments | 2017 – Present
                 </p>
 
-                <p>
+                <p data-en="Provided ongoing freelance on-site IT support for photography studios, companies and computer service shops through separate one-day service contracts. Each assignment was arranged in advance with a designated contact and carried out according to the client's technical requirements." data-fa="ارائه پشتیبانی فنی حضوری مستمر به‌صورت فریلنس برای استودیوهای عکاسی، شرکت‌ها و فروشگاه‌های خدمات کامپیوتری از طریق قراردادهای خدماتی یک‌روزه جداگانه. هر ماموریت از قبل با یک شخص رابط هماهنگ شده و مطابق با نیازهای فنی مشتری انجام می‌شد.">
                   Provided ongoing freelance on-site IT support for photography
                   studios, companies and computer service shops through separate
                   one-day service contracts. Each assignment was arranged in
@@ -494,14 +515,14 @@
                 </p>
 
                 <ul class="experience-list">
-                  <li>Upgraded and prepared computer systems according to the client's software and operational requirements.</li>
-                  <li>Installed, upgraded and configured operating systems on client computers.</li>
-                  <li>Resolved operating system errors, software conflicts, configuration problems and system instability.</li>
-                  <li>Diagnosed slow computer performance, startup delays and application response issues.</li>
-                  <li>Installed required software, drivers, updates and system configurations after operating system upgrades.</li>
-                  <li>Performed system cleanup, maintenance and optimization to improve computer responsiveness and reliability.</li>
-                  <li>Provided hands-on troubleshooting during scheduled one-day service visits.</li>
-                  <li>Explained technical problems and their solutions clearly to clients and provided follow-up support when required.</li>
+                  <li data-en="Upgraded and prepared computer systems according to the client's software and operational requirements." data-fa="آپگرید و آماده‌سازی سیستم‌های کامپیوتری مطابق با نیازهای نرم‌افزاری و عملیاتی مشتری.">Upgraded and prepared computer systems according to the client's software and operational requirements.</li>
+                  <li data-en="Installed, upgraded and configured operating systems on client computers." data-fa="نصب، آپگرید و پیکربندی سیستم‌عامل روی کامپیوترهای مشتری.">Installed, upgraded and configured operating systems on client computers.</li>
+                  <li data-en="Resolved operating system errors, software conflicts, configuration problems and system instability." data-fa="رفع خطاهای سیستم‌عامل، تداخل نرم‌افزاری، مشکلات پیکربندی و ناپایداری سیستم.">Resolved operating system errors, software conflicts, configuration problems and system instability.</li>
+                  <li data-en="Diagnosed slow computer performance, startup delays and application response issues." data-fa="تشخیص کندی عملکرد کامپیوتر، تاخیر در راه‌اندازی و مشکلات پاسخگویی برنامه‌ها.">Diagnosed slow computer performance, startup delays and application response issues.</li>
+                  <li data-en="Installed required software, drivers, updates and system configurations after operating system upgrades." data-fa="نصب نرم‌افزار، درایور، به‌روزرسانی و تنظیمات لازم پس از آپگرید سیستم‌عامل.">Installed required software, drivers, updates and system configurations after operating system upgrades.</li>
+                  <li data-en="Performed system cleanup, maintenance and optimization to improve computer responsiveness and reliability." data-fa="انجام پاک‌سازی، نگهداری و بهینه‌سازی سیستم برای بهبود سرعت پاسخگویی و قابلیت اطمینان کامپیوتر.">Performed system cleanup, maintenance and optimization to improve computer responsiveness and reliability.</li>
+                  <li data-en="Provided hands-on troubleshooting during scheduled one-day service visits." data-fa="ارائه رفع اشکال عملی طی بازدیدهای خدماتی یک‌روزه برنامه‌ریزی‌شده.">Provided hands-on troubleshooting during scheduled one-day service visits.</li>
+                  <li data-en="Explained technical problems and their solutions clearly to clients and provided follow-up support when required." data-fa="توضیح شفاف مشکلات فنی و راه‌حل‌ها به مشتریان و ارائه پشتیبانی پیگیری در صورت نیاز.">Explained technical problems and their solutions clearly to clients and provided follow-up support when required.</li>
                 </ul>
               </div>
             </div>
@@ -511,14 +532,79 @@
       </div>
     </div>
 
+<!-- Contact Section -->
+<div class="section" id="contact">
+  <div class="container">
+
+    <div class="h4 text-center mb-4 title" data-en="Get In Touch" data-fa="تماس با من">Get In Touch</div>
+
+    <div class="card contact-card" data-aos="fade-up" data-aos-offset="10">
+      <div class="card-body">
+
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <p class="lead-text" data-en="Have a software, operating system or performance issue? Send a quick message describing the problem and I will get back to you to discuss the next steps." data-fa="مشکلی در نرم‌افزار، سیستم‌عامل یا عملکرد سیستم دارید؟ یک پیام کوتاه درباره مشکل بفرستید تا برای مراحل بعدی باهاتون تماس بگیرم.">
+              Have a software, operating system or performance issue?
+              Send a quick message describing the problem and I will get
+              back to you to discuss the next steps.
+            </p>
+
+            <div class="row mt-3">
+              <div class="col-sm-5">
+                <strong class="text-uppercase" data-en="Email:" data-fa="ایمیل:">Email:</strong>
+              </div>
+              <div class="col-sm-7">
+                <a href="mailto:mahbodapachii@gmail.com">mahbodapachii@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="row mt-3">
+              <div class="col-sm-5">
+                <strong class="text-uppercase" data-en="Telegram:" data-fa="تلگرام:">Telegram:</strong>
+              </div>
+              <div class="col-sm-7">
+                <a href="https://t.me/mahbod_moghadam" target="_blank">@mahbod_moghadam</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12">
+            <form id="contact-form" action="https://formspree.io/f/xwlkngpq" method="POST">
+              <div class="form-group">
+                <label for="cf-name" data-en="Name" data-fa="نام">Name</label>
+                <input type="text" class="form-control" id="cf-name" name="name" required>
+              </div>
+
+              <div class="form-group">
+                <label for="cf-contact" data-en="Email or Phone" data-fa="ایمیل یا شماره تماس">Email or Phone</label>
+                <input type="text" class="form-control" id="cf-contact" name="contact" required>
+              </div>
+
+              <div class="form-group">
+                <label for="cf-message" data-en="Describe your issue" data-fa="مشکل خود را شرح دهید">Describe your issue</label>
+                <textarea class="form-control" id="cf-message" name="message" rows="4" required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-round" data-en="Send Message" data-fa="ارسال پیام">Send Message</button>
+              <p id="cf-status" class="mt-2"></p>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
 <!-- Footer -->
 <footer class="footer">
-  <div class="h4 title text-center">Mahbod Moghadam</div>
+  <div class="h4 title text-center" data-en="Mahbod Moghaddam" data-fa="مهبد مقدم">Mahbod Moghaddam</div>
 
   <div class="text-center text-muted">
     <p>
-      &copy; Mahbod Moghadam. All rights reserved.
-      Hosted on
+      <span data-en="© Mahbod Moghadam. All rights reserved." data-fa="© مهبد مقدم. تمامی حقوق محفوظ است.">© Mahbod Moghadam. All rights reserved.</span>
+      <span data-en="Hosted on" data-fa="میزبانی روی">Hosted on</span>
       <a href="https://github.io" target="_blank">GitHub</a>
     </p>
   </div>
@@ -531,6 +617,67 @@
 <script src="js/now-ui-kit.js?v=1.1.0"></script>
 <script src="js/aos.js"></script>
 <script src="js/main.js"></script>
+
+<script>
+  const contactForm = document.getElementById('contact-form');
+  const contactStatus = document.getElementById('cf-status');
+  const statusMessages = {
+    sending: { en: 'Sending...', fa: 'در حال ارسال...' },
+    success: { en: 'Thanks! Your message has been sent.', fa: 'ممنون! پیام شما ارسال شد.' },
+    error: { en: 'Something went wrong. Please email me directly.', fa: 'مشکلی پیش آمد. لطفاً مستقیماً ایمیل بزنید.' }
+  };
+
+  function currentLang() {
+    return document.body.classList.contains('lang-fa-active') ? 'fa' : 'en';
+  }
+
+  if (contactForm) {
+    contactForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      const data = new FormData(contactForm);
+      contactStatus.textContent = statusMessages.sending[currentLang()];
+      fetch(contactForm.action, {
+        method: 'POST',
+        body: data,
+        headers: { 'Accept': 'application/json' }
+      }).then(function (response) {
+        if (response.ok) {
+          contactStatus.textContent = statusMessages.success[currentLang()];
+          contactForm.reset();
+        } else {
+          contactStatus.textContent = statusMessages.error[currentLang()];
+        }
+      }).catch(function () {
+        contactStatus.textContent = statusMessages.error[currentLang()];
+      });
+    });
+  }
+
+  function setLanguage(lang) {
+    document.querySelectorAll('[data-en]').forEach(function (el) {
+      el.textContent = lang === 'fa' ? el.getAttribute('data-fa') : el.getAttribute('data-en');
+    });
+    document.documentElement.setAttribute('lang', lang === 'fa' ? 'fa' : 'en-US');
+    document.documentElement.setAttribute('dir', lang === 'fa' ? 'rtl' : 'ltr');
+    document.body.classList.toggle('lang-fa-active', lang === 'fa');
+    document.querySelectorAll('.lang-toggle-btn').forEach(function (btn) {
+      btn.textContent = lang === 'fa' ? 'English' : 'فارسی';
+    });
+    try { localStorage.setItem('site-lang', lang); } catch (e) {}
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var saved = 'en';
+    try { saved = localStorage.getItem('site-lang') || 'en'; } catch (e) {}
+    setLanguage(saved);
+    document.querySelectorAll('.lang-toggle-btn').forEach(function (btn) {
+      btn.addEventListener('click', function (e) {
+        e.preventDefault();
+        setLanguage(currentLang() === 'fa' ? 'en' : 'fa');
+      });
+    });
+  });
+</script>
 
 </body>
 </html>
