@@ -7765,3 +7765,43 @@ a { color:inherit; }
   margin-right: 0;
   text-align: center;
 }
+
+/* Case Studies - force the blue panel to fill the card and center content */
+#case-studies .card > .row {
+  display: flex;
+  align-items: stretch;
+}
+
+#case-studies .card > .row > .col-md-3.bg-primary {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  padding: 0;
+}
+
+#case-studies .card > .row > .col-md-3.bg-primary > .cc-education-header {
+  flex: 1 1 auto;
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+  margin: 0;
+  padding: 25px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#case-studies .card > .row > .col-md-3.bg-primary > .cc-education-header p,
+#case-studies .card > .row > .col-md-3.bg-primary > .cc-education-header .h5 {
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+#case-studies .card > .row > .col-md-3.bg-primary > .cc-education-header .h5 {
+  margin-bottom: 0;
+}
