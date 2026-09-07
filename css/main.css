@@ -7737,20 +7737,31 @@ a { color:inherit; }
   }
 }
 
+/* Case Studies - perfectly center the blue panel content */
+#case-studies .row {
+  display: flex;
+  align-items: stretch;
+}
 
-/* Center Case Studies left column content */
+#case-studies .col-md-3.bg-primary {
+  display: flex;
+  align-items: stretch;
+}
+
 #case-studies .cc-education-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 100%;
-    min-height: 100%;
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
 }
 
 #case-studies .cc-education-header p,
 #case-studies .cc-education-header .h5 {
-    margin-left: 0;
-    margin-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
 }
