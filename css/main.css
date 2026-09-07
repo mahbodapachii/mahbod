@@ -7847,3 +7847,55 @@ a { color:inherit; }
     min-height: 120px;
   }
 }
+
+
+/* FINAL FIX: Case Studies blue panel - exact horizontal + vertical centering */
+#case-studies .case-study-card > .row {
+  display: flex !important;
+  flex-wrap: wrap;
+  align-items: stretch !important;
+}
+
+#case-studies .case-study-card .case-study-blue-col {
+  display: flex !important;
+  align-self: stretch !important;
+  align-items: stretch !important;
+  padding: 0 !important;
+}
+
+#case-studies .case-study-card .blue-box {
+  flex: 1 1 auto !important;
+  width: 100% !important;
+  height: auto !important;
+  min-height: 100% !important;
+  margin: 0 !important;
+  padding: 16px 10px !important;
+  box-sizing: border-box !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+#case-studies .case-study-card .blue-box p,
+#case-studies .case-study-card .blue-box .h5 {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  text-align: center !important;
+}
+
+#case-studies .case-study-card .blue-box p {
+  margin-bottom: 8px !important;
+}
+
+@media (max-width: 767px) {
+  #case-studies .case-study-card .case-study-blue-col {
+    min-height: 150px !important;
+  }
+
+  #case-studies .case-study-card .blue-box {
+    min-height: 150px !important;
+  }
+}
