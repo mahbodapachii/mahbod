@@ -7736,3 +7736,21 @@ a { color:inherit; }
     line-height: 1.35;
   }
 }
+
+
+/* Center Case Studies left column content */
+#case-studies .cc-education-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    min-height: 100%;
+}
+
+#case-studies .cc-education-header p,
+#case-studies .cc-education-header .h5 {
+    margin-left: 0;
+    margin-right: 0;
+}
