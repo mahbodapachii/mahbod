@@ -7805,3 +7805,45 @@ a { color:inherit; }
 #case-studies .card > .row > .col-md-3.bg-primary > .cc-education-header .h5 {
   margin-bottom: 0;
 }
+
+/* Final Case Studies blue panel centering fix */
+#case-studies .card > .row > .col-md-3.bg-primary {
+  position: relative;
+  align-self: stretch;
+  min-height: 100%;
+}
+
+#case-studies .card > .row > .col-md-3.bg-primary > .cc-education-header {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  margin: 0;
+  padding: 16px 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#case-studies .card > .row > .col-md-3.bg-primary > .cc-education-header p,
+#case-studies .card > .row > .col-md-3.bg-primary > .cc-education-header .h5 {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#case-studies .card > .row > .col-md-3.bg-primary > .cc-education-header p {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+  #case-studies .card > .row > .col-md-3.bg-primary {
+    min-height: 120px;
+  }
+}
