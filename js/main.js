@@ -25,9 +25,12 @@ $('a.smooth-scroll')
       // Only prevent default if animation is actually gonna happen
       event.preventDefault();
       $('html, body').animate({
-        scrollTop: target.offset().top
-      }, 1000, function() {
+        scrollTop: Math.max(0, target.offset().top - $('.navbar').outerHeight()),
+      }, 650, function() {
         // Callback after animation
+        if ($('.navbar-collapse').hasClass('show')) {
+          $('.navbar-collapse').collapse('hide');
+        }
         // Must change focus!
         var $target = $(target);
         $target.focus();
