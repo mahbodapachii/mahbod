@@ -7737,165 +7737,126 @@ a { color:inherit; }
   }
 }
 
-/* Case Studies - perfectly center the blue panel content */
-#case-studies .row {
-  display: flex;
-  align-items: stretch;
-}
 
-#case-studies .col-md-3.bg-primary {
-  display: flex;
-  align-items: stretch;
-}
-
-#case-studies .cc-education-header {
-  width: 100%;
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: 0;
-}
-
-#case-studies .cc-education-header p,
-#case-studies .cc-education-header .h5 {
-  margin-left: 0;
-  margin-right: 0;
-  text-align: center;
-}
-
-/* Case Studies - force the blue panel to fill the card and center content */
-#case-studies .card > .row {
-  display: flex;
-  align-items: stretch;
-}
-
-#case-studies .card > .row > .col-md-3.bg-primary {
-  display: flex;
-  flex-direction: column;
-  align-self: stretch;
-  padding: 0;
-}
-
-#case-studies .card > .row > .col-md-3.bg-primary > .cc-education-header {
-  flex: 1 1 auto;
-  width: 100%;
-  min-height: 100%;
-  height: auto;
-  margin: 0;
-  padding: 25px 15px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  box-sizing: border-box;
-}
-
-#case-studies .card > .row > .col-md-3.bg-primary > .cc-education-header p,
-#case-studies .card > .row > .col-md-3.bg-primary > .cc-education-header .h5 {
-  width: 100%;
-  margin-top: 0;
-  margin-bottom: 8px;
-  text-align: center;
-}
-
-#case-studies .card > .row > .col-md-3.bg-primary > .cc-education-header .h5 {
-  margin-bottom: 0;
-}
-
-/* Final Case Studies blue panel centering fix */
-#case-studies .card > .row > .col-md-3.bg-primary {
-  position: relative;
-  align-self: stretch;
-  min-height: 100%;
-}
-
-#case-studies .card > .row > .col-md-3.bg-primary > .cc-education-header {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  min-height: 0;
-  margin: 0;
-  padding: 16px 10px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-#case-studies .card > .row > .col-md-3.bg-primary > .cc-education-header p,
-#case-studies .card > .row > .col-md-3.bg-primary > .cc-education-header .h5 {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  box-sizing: border-box;
-}
-
-#case-studies .card > .row > .col-md-3.bg-primary > .cc-education-header p {
-  margin-bottom: 8px;
-}
-
-@media (max-width: 768px) {
-  #case-studies .card > .row > .col-md-3.bg-primary {
-    min-height: 120px;
-  }
-}
-
-
-/* FINAL FIX: Case Studies blue panel - exact horizontal + vertical centering */
+/* Case Studies: center the blue side panel content, horizontally and vertically */
 #case-studies .case-study-card > .row {
-  display: flex !important;
+  display: flex;
   flex-wrap: wrap;
-  align-items: stretch !important;
 }
-
-#case-studies .case-study-card .case-study-blue-col {
-  display: flex !important;
-  align-self: stretch !important;
-  align-items: stretch !important;
-  padding: 0 !important;
+#case-studies .case-study-blue-col {
+  display: flex;
 }
-
-#case-studies .case-study-card .blue-box {
-  flex: 1 1 auto !important;
-  width: 100% !important;
-  height: auto !important;
-  min-height: 100% !important;
-  margin: 0 !important;
-  padding: 16px 10px !important;
-  box-sizing: border-box !important;
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  justify-content: center !important;
-  text-align: center !important;
+#case-studies .blue-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  padding: 24px 16px;
 }
-
-#case-studies .case-study-card .blue-box p,
-#case-studies .case-study-card .blue-box .h5 {
-  width: 100% !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  text-align: center !important;
+#case-studies .blue-box p,
+#case-studies .blue-box .h5 {
+  margin: 0 0 8px;
 }
-
-#case-studies .case-study-card .blue-box p {
-  margin-bottom: 8px !important;
-}
-
 @media (max-width: 767px) {
-  #case-studies .case-study-card .case-study-blue-col {
-    min-height: 150px !important;
+  #case-studies .case-study-blue-col {
+    min-height: 140px;
   }
+}
 
-  #case-studies .case-study-card .blue-box {
-    min-height: 150px !important;
+/* Experience: center date/title block in the left panel, matching Case Studies */
+#experience .cc-education-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Professional Skills: tighter, more compact list spacing */
+.skill-list li {
+  margin-bottom: 6px;
+  line-height: 1.4;
+}
+.skill-group {
+  margin-bottom: 18px;
+}
+
+/* Keep section headings from hiding behind the fixed navbar when jumped to via anchor links */
+#about, #skill, #education, #experience, #case-studies, #contact {
+  scroll-margin-top: 90px;
+}
+
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
   }
+}
+
+/* Language toggle + RTL layout (Persian) */
+body.lang-fa-active {
+  direction: rtl;
+  text-align: right;
+  font-family: 'Vazirmatn', Tahoma, sans-serif;
+}
+body.lang-fa-active .professional-info .row,
+body.lang-fa-active .cc-education-header,
+body.lang-fa-active .contact-card .row {
+  direction: rtl;
+}
+body.lang-fa-active .skill-list i,
+body.lang-fa-active .experience-list li {
+  margin-left: 0.5rem;
+  margin-right: 0;
+}
+.lang-toggle-btn {
+  cursor: pointer;
+}
+
+/* Keep the navbar/mobile menu physically LTR regardless of language,
+   since its off-canvas transform math assumes left-to-right layout */
+header, .navbar, .navbar-collapse, .navbar-translate, .navbar-toggler {
+  direction: ltr !important;
+  text-align: left !important;
+}
+.navbar .navbar-brand {
+  text-transform: none !important;
+}
+
+/* Hero CTA button: keep text visible against the white background
+   (theme's header text-color rule otherwise turns it white-on-white) */
+.page-header .container > .content-center .btn-neutral {
+  color: #039be5 !important;
+}
+
+/* Floating Telegram button */
+#floating-telegram {
+  position: fixed;
+  bottom: 22px;
+  right: 22px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #16A3AC;
+  color: #ffffff !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+  z-index: 999;
+  text-decoration: none;
+  transition: transform 0.15s ease;
+}
+#floating-telegram:hover {
+  transform: scale(1.08);
+  color: #ffffff !important;
 }
