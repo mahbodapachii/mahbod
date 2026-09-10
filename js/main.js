@@ -41,3 +41,11 @@ $('a.smooth-scroll')
     }
   }
 });
+
+// Close the mobile off-canvas menu after a nav link is tapped,
+// so users aren't left staring at the menu after navigating.
+$(document).on('click', '.navbar-nav .nav-link', function () {
+  if (window.nowuiKit && window.nowuiKit.misc && window.nowuiKit.misc.navbar_menu_visible == 1) {
+    $('.navbar-toggler').trigger('click');
+  }
+});
