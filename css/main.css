@@ -7802,3 +7802,93 @@ footer.footer a {
     scroll-behavior: auto !important;
   }
 }
+
+
+/* ==========================================================================
+   12. MOBILE OFF-CANVAS MENU DRAWER FIX (SOLID DARK GLASS & RTL ALIGNMENT)
+   ========================================================================== */
+@media screen and (max-width: 991px) {
+  .sidebar-collapse .navbar-collapse {
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+    height: 100vh !important;
+    width: 280px !important;
+    background: rgba(13, 10, 26, 0.96) !important;
+    backdrop-filter: blur(24px) !important;
+    -webkit-backdrop-filter: blur(24px) !important;
+    border-left: 1px solid rgba(196, 181, 253, 0.22) !important;
+    box-shadow: -16px 0 45px rgba(0, 0, 0, 0.85) !important;
+    padding: 24px 20px !important;
+    z-index: 1050 !important;
+  }
+
+  .sidebar-collapse .navbar-collapse:before {
+    background: linear-gradient(165deg, rgba(139, 92, 246, 0.18) 0%, rgba(11, 9, 20, 0.98) 85%) !important;
+    opacity: 1 !important;
+  }
+
+  .sidebar-collapse .navbar .navbar-nav {
+    margin-top: 56px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 8px !important;
+    width: 100% !important;
+  }
+
+  .sidebar-collapse .navbar-collapse .navbar-nav:not(.navbar-logo) .nav-link {
+    margin: 0 !important;
+    padding: 12px 18px !important;
+    border-radius: 14px !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    color: #f8fafc !important;
+    display: block !important;
+    width: 100% !important;
+    border: 1px solid transparent !important;
+    transition: all 0.25s ease !important;
+  }
+
+  .sidebar-collapse .navbar-collapse .navbar-nav:not(.navbar-logo) .nav-link:not(.btn):hover,
+  .sidebar-collapse .navbar-collapse .navbar-nav:not(.navbar-logo) .nav-link:not(.btn):focus {
+    background: rgba(139, 92, 246, 0.18) !important;
+    border-color: rgba(196, 181, 253, 0.25) !important;
+    color: #c4b5fd !important;
+  }
+
+  /* Persian (RTL) alignment inside mobile menu */
+  body.lang-fa-active .sidebar-collapse .navbar-collapse .navbar-nav {
+    direction: rtl !important;
+    text-align: right !important;
+  }
+
+  body.lang-fa-active .sidebar-collapse .navbar-collapse .navbar-nav .nav-link {
+    text-align: right !important;
+    font-family: 'Vazirmatn', Tahoma, sans-serif !important;
+  }
+
+  /* Keep CTA & Language Toggle buttons centered and full-width inside mobile drawer */
+  .sidebar-collapse .navbar-collapse .navbar-nav .nav-link.btn-primary {
+    text-align: center !important;
+    margin-top: 8px !important;
+    background: linear-gradient(135deg, #8b5cf6 0%, #6d28d9 100%) !important;
+    box-shadow: 0 8px 20px rgba(139, 92, 246, 0.4) !important;
+    color: #ffffff !important;
+  }
+
+  .sidebar-collapse .navbar-collapse .navbar-nav .lang-toggle-btn {
+    text-align: center !important;
+    margin-top: 6px !important;
+    margin-left: 0 !important;
+    background: rgba(139, 92, 246, 0.14) !important;
+    border: 1px solid rgba(196, 181, 253, 0.35) !important;
+    color: #ddd6fe !important;
+  }
+
+  /* Darken the page backdrop when mobile menu is open */
+  .sidebar-collapse #bodyClick {
+    background: rgba(5, 4, 12, 0.65) !important;
+    backdrop-filter: blur(4px) !important;
+    -webkit-backdrop-filter: blur(4px) !important;
+  }
+}
